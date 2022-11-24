@@ -33,10 +33,10 @@
 - **具体可见mall.sql**
 
 ## 包安装
-- pyqt5安装：
-pip install pyqt5 -i https://pypi.douban.com/simple
-- pyqt5-designer安装：
-pip install pyqt5-tools -i https://pypi.douban.com/simple
+
+```shell
+ pip install -r requirements.txt -i https://mirrors.ustc.edu.cn/pypi/web/simple 
+```
 
 ## 项目运行
 
