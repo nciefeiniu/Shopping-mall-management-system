@@ -5,10 +5,11 @@ import datetime
 
 class Shop_op:
     def __init__(self):
-        self.host = 'localhost'
-        self.user = 'root'
-        self.passwd = ''
-        self.port = 3306
+        # 注意，需要先创建数据库，请运行 mall.sql 这个文件，这是创建数据库以及表的sql文件
+        self.host = 'localhost'  # 数据库地址
+        self.user = 'root'  # 数据库账号
+        self.passwd = ''  # 数据库密码
+        self.port = 3306  # 数据库端口
 
     def connect(self):
         self.conn = pymysql.connect(
